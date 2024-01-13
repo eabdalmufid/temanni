@@ -11,6 +11,7 @@ Create a `.env` file in the root directory of your project and add the following
 ```dotenv
 # MongoDB
 MONGO_URI = "YOUR_MONGO_URI"
+DB_NAME = "YOUR_DB_NAME"
 
 # Google OAuth
 GOOGLE_CLIENT_ID = "YOUR_GOOGLE_ID"
