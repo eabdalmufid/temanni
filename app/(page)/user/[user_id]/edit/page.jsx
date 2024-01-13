@@ -3,7 +3,6 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 
 // NextJS
-import Link from "next/link";
 import { redirect } from "next/navigation";
 
 // Server Action

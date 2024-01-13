@@ -13,6 +13,12 @@ import { redirect } from "next/navigation";
 // Component
 import BackButton from "@/components/BackButton";
 
+// Metadata
+export const metadata = {
+    title: 'Profile',
+    description: 'User Profile',
+};
+
 const Page = async ({ params: { user_id }}) => {
 
     // Check User Session (If not logged in, redirect home)
