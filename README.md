@@ -2,7 +2,7 @@
 
 Welcome to Temanni! This guide will help you set up the necessary environment variables for the application.
 
-![Screenshot](/assets/images/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/ruuuruiya/temanni/main/public/assets/images/screenshot.png)
 
 ## Configuration
 
