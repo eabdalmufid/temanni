@@ -28,7 +28,7 @@ const Navbar = ({ user }) => {
                     
                     { user ? 
                         <div className="dropdown cursor-pointer dropdown-end">
-                            <Image tabIndex={0} src={`${user?.profile ? user?.profile : "/assets/images/profile.svg"}`} alt="profile" width={20} height={20} className="rounded-full aspect-square w-10" referrerPolicy="no-referrer"/>
+                            <Image tabIndex={0} src={`${user?.profile ? user?.profile : "/assets/images/profile.svg"}`} alt="profile" width={20} height={20} className="rounded-full aspect-square w-10 border border-baseSecondary" referrerPolicy="no-referrer"/>
                             <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow mt-2 rounded-md bg-basePrimary border border-basePrimaryHover w-40">
                                 <li onClick={() => document?.activeElement?.blur()}>
                                     <Link href={`/user/${user?.user_id}`}>Profile</Link>
@@ -59,7 +59,7 @@ const Navbar = ({ user }) => {
 
                     { user && 
                         <div onClick={() => setOpen(false)} className="dropdown cursor-pointer dropdown-end md:hidden ">
-                            <Image tabIndex={0} src={`${user?.profile ? user?.profile : "/assets/images/profile.svg"}`} alt="profile" width={20} height={20} className="rounded-full aspect-square w-10" referrerPolicy="no-referrer"/>
+                            <Image tabIndex={0} src={`${user?.profile ? user?.profile : "/assets/images/profile.svg"}`} alt="profile" width={20} height={20} className="rounded-full aspect-square w-10 border border-baseSecondary" referrerPolicy="no-referrer"/>
                             <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow mt-2 rounded-md bg-basePrimary border border-basePrimaryHover w-40">
                                 <li onClick={() => document?.activeElement?.blur()}>
                                     <Link href={`/user/${user?.user_id}`}>Profile</Link>
