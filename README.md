@@ -1,6 +1,6 @@
 # Temanni
 
-Welcome to Temanni! This guide will help you set up the necessary environment variables for the application.
+Welcome to Temanni (https://temanni.vercel.app)! This guide will help you set up the necessary environment variables for the application.
 
 ![Screenshot](https://raw.githubusercontent.com/ruuuruiya/temanni/main/public/assets/images/screenshot.png)
 
